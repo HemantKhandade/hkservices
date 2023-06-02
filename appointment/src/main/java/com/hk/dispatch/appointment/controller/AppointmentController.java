@@ -10,6 +10,6 @@ public class AppointmentController {
 
 		@GetMapping("/apptslots")
 		public ResponseEntity<String> getAppointmentSlots(){
-			return new ResponseEntity<String>("8AM-10AM,10AM-12PM,12PM-02PM,02PM-04PM", HttpStatus.OK);
+			return new ResponseEntity<String>("{'slots':['8AM-10AM,10AM-12PM,12PM-02PM,02PM-04PM']}", HttpStatus.OK);
 		}
 }
