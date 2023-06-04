@@ -1,0 +1,39 @@
+server:
+  port: 8080
+  
+record:
+    key: apiKeys
+
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: applicationModule
+        uri: http://localhost:8081/
+        predicates:
+        - Path=/appointment/**
+      - id: assigntechModule
+        uri: http://localhost:8082/
+        predicates:
+        - Path=/assigntech/**
+  redis:
+    host: localhost
+    port: 6379
+    
+all:
+  api:
+    access:
+      key: API_KEY_1
+      
+appointment:
+  api:
+    access:
+      key: API_KEY_2
+      
+appt:
+  service:
+    key: APPOINTMENT_SERVICE_KEY
+    
+assigntech:
+  service:
+    key: ASSIGNTECH_SERVICE_KEY

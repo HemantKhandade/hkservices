@@ -1,0 +1,31 @@
+[ 
+	{    
+		"key": "343C-EDOB-4137-B27E",    
+		"services": 
+		[      "424C481A-DA17-4908-85B1-6740E7808B0D",      
+				"EE44BAD9-A3DA-46FA-B4E0-7DE7C2681ABF"    
+		]  
+	},  
+	{    
+		"key": "FA48-EF0C-427E-8CCF",    
+		"services": 
+		[      "EE44BAD9-A3DA-46FA-B4E0-7DE7C2681ABF"    ]  
+	}
+]
+
+
+
+[ 
+	{    
+		"key": "API_KEY_1",    
+		"services": 
+		[      "APPOINTMENT_SERVICE_KEY",      
+				"ASSIGNTECH_SERVICE_KEY"    
+		]  
+	},  
+	{    
+		"key": "API_KEY_2",    
+		"services": 
+		[      "APPOINTMENT_SERVICE_KEY"    ]  
+	}
+]
